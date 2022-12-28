@@ -19,34 +19,34 @@
         android:contentDescription="@string/product_poster_image"
         android:cropToPadding="true"
         android:src="@drawable/book"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="25dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+
         >
         <TextView
             android:id="@+id/product_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="@string/product_name"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
             android:lines="2"
             android:layout_weight="1"
+            android:layout_marginTop="25dp"
             />
         <TextView
             android:id="@+id/product_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="@string/product_details_text"
             android:textColor="@color/darkGray"
-            android:textSize="13sp"
-            android:lines="2"
+            android:textSize="18sp"
             android:layout_weight="1"
             android:layout_marginTop="10dp"
             />
@@ -65,23 +65,33 @@
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"></com.google.android.material.textfield.TextInputEditText>
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content" />
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
                 android:id="@+id/product_price"
-                android:layout_width="10dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:text="@string/product_price"
                 android:textColor="@color/darkGray"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:lines="2"
                 android:layout_weight="1"
+                android:textAlignment="textEnd"
                 />
         </LinearLayout>
 
+        <Button
+            android:id="@+id/outlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/buy_button_text"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="?android:attr/textColorLinkInverse"
+            />
     </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

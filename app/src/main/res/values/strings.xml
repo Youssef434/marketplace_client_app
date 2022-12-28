@@ -5,4 +5,5 @@
     <string name="product_price">10 DH</string>
     <string name="product_details_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="coupon_text_edit">have a coupon ?</string>
+    <string name="buy_button_text">Buy</string>
 </resources>
