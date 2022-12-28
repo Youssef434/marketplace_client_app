@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">marketplace_client_app</string>
+    <string name="product_poster_image">Product Poster Image</string>
+    <string name="product_name">Product Title</string>
+    <string name="product_price">10 DH</string>
+    <string name="product_details_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="coupon_text_edit">have a coupon ?</string>
+</resources>
