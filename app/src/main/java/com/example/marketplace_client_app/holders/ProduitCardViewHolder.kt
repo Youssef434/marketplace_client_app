@@ -1,4 +1,4 @@
-package com.example.marketplace_client_app.holder
+package com.example.marketplace_client_app.holders
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.marketplace_client_app.databinding.ProductCardBinding
@@ -9,6 +9,6 @@ class ProduitCardViewHolder(private val productCardBinding: ProductCardBinding):
         productCardBinding.productImage.setImageResource(product.image)
         productCardBinding.productTitle.text = product.nom
         (product.prix.toString() + " DH").also { productCardBinding.productPrice.text = it }
-        productCardBinding.productInfo.text = product.description
+//        productCardBinding.productInfo.text = product.description
     }
 }

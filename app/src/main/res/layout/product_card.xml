@@ -64,16 +64,16 @@
             android:orientation="horizontal"
             android:padding="2dp"
             >
-            <TextView
-                android:id="@+id/product_info"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/product_details_text"
-                android:textColor="@color/darkGray"
-                android:textSize="13sp"
-                android:layout_weight="1"
-                />
+<!--            <TextView-->
+<!--                android:id="@+id/product_info"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/product_details_text"-->
+<!--                android:textColor="@color/darkGray"-->
+<!--                android:textSize="13sp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
         </LinearLayout>
 
         </LinearLayout>
