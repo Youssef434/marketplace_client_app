@@ -1,5 +1,7 @@
 package com.example.marketplace_client_app.model
 
+val PRODUCT_ID_EXTRA = ""
+
 data class Produit(
     val image: Int,
     val numeroSerie: Int,
