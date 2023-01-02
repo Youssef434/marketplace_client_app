@@ -96,12 +96,13 @@ class Home : Fragment(), ProductCardClickListener, SearchBarChangeListener {
         if (index == -1) return
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     private fun removeAndGetIndex(productName: String): Int {
         var j = 0
 
         while (j < productsCopy.size) {
             if (productName != productsCopy[j].nom) {
-                productGroups.removeAt(j)
+                currentClient.panier.items.removeAt(j)
                 adapter.notifyItemRemoved(j)
             }
             j++

@@ -8,7 +8,8 @@ data class Produit(
     val nom: String,
     val description: String,
     val prix: Int,
-    val categories: List<Categorie>
+    val categories: List<Categorie>,
+    val detailImage: Int?
 ) {
     fun estDisponible(): Boolean {
         return true

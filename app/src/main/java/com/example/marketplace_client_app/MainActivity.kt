@@ -42,50 +42,56 @@ class MainActivity : AppCompatActivity() {
 
 val products: List<Produit> = listOf(
     Produit(
-        R.drawable.book,
+        R.drawable.img_1,
         1,
-        "Book 1",
+        "Sierra",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        50,
-        listOf(Categorie(1, "book"))
+        5000,
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ),
     Produit(
-        R.drawable.book,
+        R.drawable.img_2,
         2,
-        "Book 2",
+        "Adidas Core",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        150,
-        listOf(Categorie(1, "book"))
+        550,
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ),
     Produit(
-        R.drawable.book,
+        R.drawable.img_3,
         3,
-        "Book 3",
+        "PlayStation 5",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         80,
-        listOf(Categorie(1, "book"))
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ),
     Produit(
         R.drawable.book,
         4,
-        "Book 4",
+        "Book",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         75,
-        listOf(Categorie(1, "book"))
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ),
     Produit(
-        R.drawable.book,
+        R.drawable.img_1,
         5,
         "Book 5",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         280,
-        listOf(Categorie(1, "book"))
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ),
     Produit(
-        R.drawable.book,
+        R.drawable.img_1,
         6,
         "Book 6",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         80,
-        listOf(Categorie(1, "book"))
+        listOf(Categorie(1, "book")),
+        R.drawable.img_3_detail
     ))

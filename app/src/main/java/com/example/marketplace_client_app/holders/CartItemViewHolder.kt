@@ -2,7 +2,6 @@ package com.example.marketplace_client_app.holders
 
 import android.view.View
 import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.marketplace_client_app.databinding.CartItemCardBinding
 import com.example.marketplace_client_app.listeners.CartItemClickListener
@@ -12,7 +11,6 @@ class CartItemViewHolder(
     private val cartItemCardBinding: CartItemCardBinding,
     private val clickListener: CartItemClickListener
 ): RecyclerView.ViewHolder(cartItemCardBinding.root) {
-    private lateinit var productGroupAdapter: ArrayAdapter<GroupProduit>
 
     fun bindCartItem(cartItem: GroupProduit) {
         cartItemCardBinding.productImageView.setImageResource(cartItem.produit.image)
